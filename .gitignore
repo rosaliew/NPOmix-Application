@@ -1,0 +1,15 @@
+# Large data files
+test/antismash_only_gbk/
+test/LCMS_Files/
+test/*.zip
+*.mzXML
+*.mzML
+
+# Pfam database (stored in ~/databases, not here anyway)
+*.hmm
+*.h3f *.h3i *.h3m *.h3p
+
+# Jupyter
+.ipynb_checkpoints/
+*.pyc
+__pycache__/
